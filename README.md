@@ -1,8 +1,6 @@
 # **Finding Lane Lines on the Road** 
 
-## Writeup Template
-
-### You can use this file as a template for your writeup if you want to submit it as a markdown file. But feel free to use some other method and submit a pdf if you prefer.
+Project 1 of Self-Driving Car ENgineer course
 
 ---
 
@@ -25,11 +23,11 @@ The goals / steps of this project are the following:
 
 My pipeline consisted of 6 steps. 
 
-- create grayscale image
-- apply Gaussian blur
-- apply Canny Edge finder
-- apply proper plolygon mask to leave only the region pertinent to driving line separators
-- apply  Hough transform to identify line segments
+- create grayscale image (CV2 method)
+- apply Gaussian blur (CV2 method)
+- apply Canny Edge finder (CV2 method)
+- apply proper plolygon mask to leave only the region pertinent to driving line separators (nice deducive work on most appropriate polygon shape)
+- apply  Hough transform to identify line segments (HOuh transforms are extremely cool tool for identifying lines. Read up on it)
 - extrapolate the line segments marked by the Hough transform to create just two lines the left and the right
 
 
